@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FKyyFjk44Qeqz9EKhNXpMYxUSHFkIGiwMViWXC21e+IqGTtN2IWOuoLd02huGXe/cjMyQJo4uQCEfDSeduTMkQ==",
+  "success": true,
+  "projectFilePath": "/home/vukt/Desktop/leetcode/leetcode.csproj",
+  "expectedPackageFiles": [
+    "/home/vukt/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
