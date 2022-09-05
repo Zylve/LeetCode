@@ -7,17 +7,16 @@
 // @lc code=start
 // public class Solution {
 //     public int RemoveElement(int[] nums, int val) {
-//         short n = 0;
+//         int wp = 0;
+
 //         for(int i = 0; i < nums.Length; i++) {
-//             if(nums[i] == val) {
-//                 nums[i] = 200;
-//                 n++;
+//             if(nums[i] != val) {
+//                 (nums[wp], nums[i]) = (nums[i], nums[wp]);
+//                 wp++;
 //             }
 //         }
 
-//         Array.Sort(nums);
-
-//         return nums.Length - n;
+//         return wp;
 //     }
 // }
 // @lc code=end
