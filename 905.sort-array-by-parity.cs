@@ -5,18 +5,18 @@
  */
 
 // @lc code=start
-public class Solution {
-    public int[] SortArrayByParity(int[] nums) {
-        int wp = 0;
+// public class Solution {
+//     public int[] SortArrayByParity(int[] nums) {
+//         int wp = 0;
 
-        for(int i = 0; i < nums.Length; i++) {
-            if(nums[i] % 2 == 0) {
-                (nums[wp], nums[i]) = (nums[i], nums[wp]);
-                wp++;
-            }
-        }
+//         for(int i = 0; i < nums.Length; i++) {
+//             if(nums[i] % 2 == 0) {
+//                 (nums[wp], nums[i]) = (nums[i], nums[wp]);
+//                 wp++;
+//             }
+//         }
 
-        return nums;
-    }
-}
+//         return nums;
+//     }
+// }
 // @lc code=end
